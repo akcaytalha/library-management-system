@@ -42,7 +42,7 @@ int main(){
 			i++;
 			break;
 		
-		case 2: // kütüphanedeki kitap bilgilerini yazdirma
+		case 2: // kÃ¼tÃ¼phanedeki kitap bilgilerini yazdirma
 			printf("kitap bilgileri: \n");
 			for(j=0;j<i;j++){
 				printf("%d. kitabim\n:",j+1);
@@ -68,11 +68,11 @@ int main(){
 			}
 			break;
 		
-		case 4: // kütüphanedeki toplam kitap sayisini gösterme
+		case 4: // kÃ¼tÃ¼phanedeki toplam kitap sayisini gÃ¶sterme
 			printf("\n toplam kitap sayisi : %d",i);
 			break;
 		
-		case 5: // çıkıs yapma durumu
+		default : // Ã§Ä±kÄ±s yapma durumu
 			printf("cikis yaptiniz:");
 			exit(0);
 	}
